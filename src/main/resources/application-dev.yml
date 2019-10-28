@@ -1,0 +1,15 @@
+camunda.bpm:
+    database:
+      schema-update: true
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/camunda-maisvida-dev
+    password: qwe123
+    username: postgres    
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+server:
+  servlet:
+    context-path: /camunda
+  port: 8880

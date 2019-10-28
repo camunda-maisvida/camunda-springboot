@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  jpa:    show-sql: false
+camunda.bpm:
+    database:
+      schema-update: false
