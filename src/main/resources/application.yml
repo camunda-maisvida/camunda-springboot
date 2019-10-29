@@ -3,7 +3,7 @@ spring:
     active: dev
   datasource:
     driver-class-name: org.postgresql.Driver
-  jpa:    show-sql: false
+  jpa:    show-sql: false  jersey:    application-path: /engine-rest
 camunda.bpm:
     database:
       schema-update: false

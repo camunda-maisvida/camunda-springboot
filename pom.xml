@@ -20,6 +20,7 @@
 		<java.version>1.8</java.version>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
+		<camunda.version>3.3.5</camunda.version>
 	</properties>
 
 	<dependencies>
@@ -42,12 +43,12 @@
 		<dependency>
 			<groupId>org.camunda.bpm.springboot</groupId>
 			<artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
-			<version>3.3.5</version>
+			<version>${camunda.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.camunda.bpm.springboot</groupId>
 			<artifactId>camunda-bpm-spring-boot-starter-rest</artifactId>
-			<version>3.3.5</version>
+			<version>${camunda.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
